@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: beige;
+}
+
+#articleImg {
+    border: 1px solid black;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+.positionAbsolute {
+    position: absolute;
+}
+
+.toutCentrer {
+    align-items: center;
+    justify-content: center;
+}
+
+.fondGradient {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%, rgba(9,9,121,0.6026785714285714) 100%);
+    /* background: linear-gradient(45deg, #020024,#3F5EFB);   */
+
+}
+
+.textWhite {
+    color: aliceblue;
+}
+
