@@ -50,10 +50,10 @@ if (!empty($_POST['email']) && !empty($_POST['name'])) {
     $mail->isSMTP();                                   //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';              //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                          //Enable SMTP authentication
-    $mail->Username   = 'ktareb80@gmail.com';          //SMTP username
-    $mail->Password   = 'atfcqjkafzyjrrws';             //SMTP password
-    // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;   //Enable implicit TLS encryption
-    $mail->secure     = "tls";
+    $mail->Username   = 'monmailtest712@gmail.com';          //SMTP username
+    $mail->Password   = 'kanjdnuktsmflunz'; //SMTP password
+    //$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;   //Enable implicit TLS encryption
+    $mail->secure     =  "tls";
     $mail->SMTPDebug = 2;
 
     $mail->Port       = 587;                           //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
